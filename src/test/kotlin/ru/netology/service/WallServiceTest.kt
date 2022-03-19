@@ -126,7 +126,7 @@ class WallServiceTest {
         wall.add(post)
         wall.add(post)
         val result = wall.update(post)
-        assertFalse(result)
+        assertTrue(result)
     }
 
     @Test
@@ -188,7 +188,7 @@ class WallServiceTest {
         wall.add(post)
         wall.add(post)
         val result = wall.update(post)
-        assertTrue(result)
+        assertFalse(result)
     }
 
 
