@@ -42,7 +42,19 @@ fun main() {
             count = 555
         ),
         postType = "post",
+        postSource = PostSource(
+            type = "vk",
+            platform = "android",
+            data = "profilePhoto",
+            url = "www.vk.com"
+        ),
+        geo = Geo(
+            type = "place",
+            coordinates = "coordinates",
+            place = null
+        ),
         signerId = 33333,
+        copyHistory = null,
         canPin = true,
         canDelete = false,
         canEdit = true,
@@ -96,7 +108,19 @@ fun main() {
             count = 777
         ),
         postType = "post",
+        postSource = PostSource(
+            type = "sms",
+            platform = "iphone",
+            data = "someAction",
+            url = "www.vk.ru"
+        ),
+        geo = Geo(
+            type = "place",
+            coordinates = "coordinates",
+            place = null
+        ),
         signerId = 22222,
+        copyHistory = null,
         canPin = true,
         canDelete = false,
         canEdit = true,
@@ -112,6 +136,7 @@ fun main() {
         ),
         postponedId = 2000
     )
+
     wall.add(post1)
     wall.add(post1)
     wall.update(post2)

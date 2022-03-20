@@ -47,7 +47,19 @@ class WallServiceTest {
                 count = 555
             ),
             postType = "post",
+            postSource = PostSource(
+                type = "vk",
+                platform = "android",
+                data = "profilePhoto",
+                url = "www.vk.com"
+            ),
+            geo = Geo(
+                type = "place",
+                coordinates = "coordinates",
+                place = null
+            ),
             signerId = 33333,
+            copyHistory = null,
             canPin = true,
             canDelete = false,
             canEdit = true,
@@ -107,7 +119,19 @@ class WallServiceTest {
                 count = 777
             ),
             postType = "post",
+            postSource = PostSource(
+                type = "vk",
+                platform = "android",
+                data = "profilePhoto",
+                url = "www.vk.com"
+            ),
+            geo = Geo(
+                type = "place",
+                coordinates = "coordinates",
+                place = null
+            ),
             signerId = 22222,
+            copyHistory = null,
             canPin = true,
             canDelete = false,
             canEdit = true,
@@ -169,7 +193,19 @@ class WallServiceTest {
                 count = 777
             ),
             postType = "post",
+            postSource = PostSource(
+                type = "vk",
+                platform = "android",
+                data = "profilePhoto",
+                url = "www.vk.com"
+            ),
+            geo = Geo(
+                type = "place",
+                coordinates = "coordinates",
+                place = null
+            ),
             signerId = 22222,
+            copyHistory = null,
             canPin = true,
             canDelete = false,
             canEdit = true,
