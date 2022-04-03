@@ -47,7 +47,73 @@ class WallServiceTest {
                 count = 555
             ),
             postType = "post",
+            postSource = PostSource(
+                type = "vk",
+                platform = "android",
+                data = "profilePhoto",
+                url = "www.vk.com"
+            ),
+            attachments = arrayOf(
+                AudioAttachment(
+                    audio = Audio(
+                        id = 1,
+                        ownerId = 2,
+                        artist = "Sting",
+                        title = "Russians",
+                        duration = 300,
+                        url = "www.sting.com",
+                        lyricsId = null,
+                        albumId = null,
+                        genreId = 10,
+                        date = 1234,
+                        noSearch = true,
+                        isHq = true
+                    )
+                ),
+                GraffitiAttachment(
+                    graffiti = Graffiti(
+                        id = 1,
+                        ownerId = 25,
+                        photo130 = "www.xxx.com",
+                        photo604 = "www.yyy.com"
+                    )
+                ),
+                NoteAttachment(
+                    note = Note(
+                        id = 5,
+                        ownerId = 500,
+                        title = "Zametka",
+                        text = "Text zametki",
+                        date = 1234,
+                        comments = 500,
+                        readComments = 100,
+                        viewUrl = "www.viewurl.com"
+                    )
+                ),
+                PostedPhotoAttachment(
+                    postedPhoto = PostedPhoto(
+                        id = 111,
+                        ownerId = 222,
+                        photo130 = "www.abc.com",
+                        photo604 = "www.xyz.com"
+                    )
+                ),
+                StickerAttachment(
+                    sticker = Sticker(
+                        productId = 12,
+                        stickerId = 21,
+                        images = arrayOf(),
+                        imagesWithBackground = arrayOf()
+                    )
+                )
+            ),
+            geo = Geo(
+                type = "place",
+                coordinates = "coordinates",
+                place = null
+            ),
             signerId = 33333,
+            copyHistory = null,
             canPin = true,
             canDelete = false,
             canEdit = true,
@@ -107,7 +173,73 @@ class WallServiceTest {
                 count = 777
             ),
             postType = "post",
+            postSource = PostSource(
+                type = "vk",
+                platform = "android",
+                data = "profilePhoto",
+                url = "www.vk.com"
+            ),
+            attachments = arrayOf(
+                AudioAttachment(
+                    audio = Audio(
+                        id = 1,
+                        ownerId = 2,
+                        artist = "Sting",
+                        title = "Russians",
+                        duration = 300,
+                        url = "www.sting.com",
+                        lyricsId = null,
+                        albumId = null,
+                        genreId = 10,
+                        date = 1234,
+                        noSearch = true,
+                        isHq = true
+                    )
+                ),
+                GraffitiAttachment(
+                    graffiti = Graffiti(
+                        id = 1,
+                        ownerId = 25,
+                        photo130 = "www.xxx.com",
+                        photo604 = "www.yyy.com"
+                    )
+                ),
+                NoteAttachment(
+                    note = Note(
+                        id = 5,
+                        ownerId = 500,
+                        title = "Zametka",
+                        text = "Text zametki",
+                        date = 1234,
+                        comments = 500,
+                        readComments = 100,
+                        viewUrl = "www.viewurl.com"
+                    )
+                ),
+                PostedPhotoAttachment(
+                    postedPhoto = PostedPhoto(
+                        id = 111,
+                        ownerId = 222,
+                        photo130 = "www.abc.com",
+                        photo604 = "www.xyz.com"
+                    )
+                ),
+                StickerAttachment(
+                    sticker = Sticker(
+                        productId = 12,
+                        stickerId = 21,
+                        images = arrayOf(),
+                        imagesWithBackground = arrayOf()
+                    )
+                )
+            ),
+            geo = Geo(
+                type = "place",
+                coordinates = "coordinates",
+                place = null
+            ),
             signerId = 22222,
+            copyHistory = null,
             canPin = true,
             canDelete = false,
             canEdit = true,
@@ -169,7 +301,73 @@ class WallServiceTest {
                 count = 777
             ),
             postType = "post",
+            postSource = PostSource(
+                type = "vk",
+                platform = "android",
+                data = "profilePhoto",
+                url = "www.vk.com"
+            ),
+            attachments = arrayOf(
+                AudioAttachment(
+                    audio = Audio(
+                        id = 1,
+                        ownerId = 2,
+                        artist = "Sting",
+                        title = "Russians",
+                        duration = 300,
+                        url = "www.sting.com",
+                        lyricsId = null,
+                        albumId = null,
+                        genreId = 10,
+                        date = 1234,
+                        noSearch = true,
+                        isHq = true
+                    )
+                ),
+                GraffitiAttachment(
+                    graffiti = Graffiti(
+                        id = 1,
+                        ownerId = 25,
+                        photo130 = "www.xxx.com",
+                        photo604 = "www.yyy.com"
+                    )
+                ),
+                NoteAttachment(
+                    note = Note(
+                        id = 5,
+                        ownerId = 500,
+                        title = "Zametka",
+                        text = "Text zametki",
+                        date = 1234,
+                        comments = 500,
+                        readComments = 100,
+                        viewUrl = "www.viewurl.com"
+                    )
+                ),
+                PostedPhotoAttachment(
+                    postedPhoto = PostedPhoto(
+                        id = 111,
+                        ownerId = 222,
+                        photo130 = "www.abc.com",
+                        photo604 = "www.xyz.com"
+                    )
+                ),
+                StickerAttachment(
+                    sticker = Sticker(
+                        productId = 12,
+                        stickerId = 21,
+                        images = arrayOf(),
+                        imagesWithBackground = arrayOf()
+                    )
+                )
+            ),
+            geo = Geo(
+                type = "place",
+                coordinates = "coordinates",
+                place = null
+            ),
             signerId = 22222,
+            copyHistory = null,
             canPin = true,
             canDelete = false,
             canEdit = true,
