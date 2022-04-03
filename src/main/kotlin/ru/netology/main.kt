@@ -245,7 +245,28 @@ fun main() {
         postponedId = 2000
     )
 
+    val comment = Comments(
+        id = 111,
+        fromId = 2222,
+        postId = 99,
+        date = 12345,
+        text = "Test",
+        replyToUser = 9876,
+        replyToComment = 5432,
+        attachments = StickerAttachment(
+            sticker = Sticker(
+                productId = 34,
+                stickerId = 43,
+                images = arrayOf(),
+                imagesWithBackground = arrayOf()
+            )
+        ),
+        parentsStack = null,
+        thread = null
+    )
+
     wall.add(post1)
     wall.add(post1)
     wall.update(post2)
+    wall.createComment(comment)
 }
